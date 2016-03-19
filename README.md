@@ -19,3 +19,7 @@ This is what the blocks are supposed to do:
 If the message type is A, then Block1, Block2 and Block3 must be executed
 If the message type is B, then Block2 and Block3
 If message type is C, then Block1 and Block3
+
+
+A server has been designed using both ACE framework and epoll.
+**Both code written and tested under 4 hours individually, so there are many flawed design decisions.**
